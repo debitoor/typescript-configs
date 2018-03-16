@@ -1,0 +1,21 @@
+{
+	"name": "tslint-config-debitoor",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"test": "mocha"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/chai": "4.1.2",
+		"@types/mocha": "2.2.48",
+		"@types/node": "^9.4.6",
+		"chai": "4.1.2",
+		"mocha": "5.0.4",
+		"typescript": "2.7.2"
+	}
+}

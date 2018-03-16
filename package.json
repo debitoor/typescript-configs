@@ -1,0 +1,19 @@
+{
+	"name": "typescript-configs",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hilleer/typescript-configs.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hilleer/typescript-configs/issues"
+	},
+	"homepage": "https://github.com/hilleer/typescript-configs#readme",
+	"dependencies": {
+		"lerna": "2.9.0"
+	}
+}
