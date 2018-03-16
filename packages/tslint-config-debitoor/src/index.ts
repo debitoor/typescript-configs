@@ -29,4 +29,4 @@ export const rules = {
 	"no-use-before-declare": true,
 	"no-var-keyword": true,
 	"restrict-plus-operands": true
-}
+};

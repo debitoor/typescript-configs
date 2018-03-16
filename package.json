@@ -2,7 +2,14 @@
 	"name": "typescript-configs",
 	"version": "1.0.0",
 	"description": "",
-	"scripts": {},
+	"scripts": {
+		"compile": "lerna run build --parallel",
+		"compile-updated": "lerna run build --since --parallel",
+		"watch": "lerna run watch --parallel",
+		"clean": "lerna clean",
+		"publish": "lerna publish",
+		"test": "lerna run test --parallel"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/hilleer/typescript-configs.git"
@@ -14,6 +21,6 @@
 	},
 	"homepage": "https://github.com/hilleer/typescript-configs#readme",
 	"dependencies": {
-		"lerna": "2.9.0"
+		"lerna": "^2.9.0"
 	}
 }

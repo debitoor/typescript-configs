@@ -1,0 +1,12 @@
+install:
+  - npm install
+  - lerna bootstrap
+  - npm run build
+language: node_js
+node_js:
+  - "8"
+  - "6"
+
+cache:
+  directories:
+  - node_modules
