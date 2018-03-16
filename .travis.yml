@@ -1,7 +1,7 @@
 install:
   - npm install
   - lerna bootstrap
-  - npm run build
+  - npm run compile
 language: node_js
 node_js:
   - "8"
