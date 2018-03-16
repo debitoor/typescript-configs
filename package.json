@@ -2,10 +2,9 @@
 	"name": "typescript-configs",
 	"version": "1.0.0",
 	"description": "",
-	"license": "MIT",
 	"scripts": {
-		"compile": "lerna run build --parallel",
-		"compile-updated": "lerna run build --since --parallel",
+		"compile": "lerna run compile --parallel",
+		"compile-updated": "lerna run compile --since --parallel",
 		"watch": "lerna run watch --parallel",
 		"clean": "lerna clean",
 		"publish": "lerna publish",
