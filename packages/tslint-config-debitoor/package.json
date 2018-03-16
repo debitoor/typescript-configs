@@ -1,14 +1,14 @@
 {
-	"name": "tslint-config-debitoor",
+	"name": "@debitoor/tslint-config-debitoor",
 	"version": "1.0.0",
-	"description": "",
+	"description": "[![Build Status](https://travis-ci.org/debitoor/typescript-configs.svg?branch=master)](https://travis-ci.org/debitoor/typescript-configs)",
 	"main": "index.js",
 	"scripts": {
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
 		"test": "mocha"
 	},
-	"author": "",
+	"author": "Debitoor",
 	"license": "ISC",
 	"dependencies": {
 		"@types/chai": "4.1.2",
@@ -19,5 +19,9 @@
 		"mocha-tslint": "0.3.0",
 		"tslint": "^5.9.1",
 		"typescript": "2.7.2"
-	}
+	},
+	"directories": {
+		"test": "test"
+	},
+	"devDependencies": {}
 }

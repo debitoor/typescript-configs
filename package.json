@@ -1,7 +1,12 @@
 {
-	"name": "typescript-configs",
+	"name": "@debitoor/typescript-configs",
 	"version": "1.0.0",
-	"description": "",
+	"description": "[![Build Status](https://travis-ci.org/debitoor/typescript-configs.svg?branch=master)](https://travis-ci.org/debitoor/typescript-configs)",
+	"main": "index.js",
+	"dependencies": {
+		"lerna": "^2.9.0"
+	},
+	"devDependencies": {},
 	"scripts": {
 		"compile": "lerna run compile --parallel",
 		"compile-updated": "lerna run compile --since --parallel",
@@ -12,15 +17,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/hilleer/typescript-configs.git"
+		"url": "git+https://github.com/debitoor/typescript-configs.git"
 	},
 	"author": "",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/hilleer/typescript-configs/issues"
+		"url": "https://github.com/debitoor/typescript-configs/issues"
 	},
-	"homepage": "https://github.com/hilleer/typescript-configs#readme",
-	"dependencies": {
-		"lerna": "^2.9.0"
-	}
+	"homepage": "https://github.com/debitoor/typescript-configs#readme"
 }
