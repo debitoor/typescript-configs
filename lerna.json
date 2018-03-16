@@ -1,14 +1,14 @@
 {
-	"lerna": "2.9.0",
-	"packages": [
-		"packages/*"
-	],
-	"version": "1.0.0",
-	"commands": {
-		"publish": {
-			"ignore": [
-				"tsconfig-debitoor"
-			]
-		}
-	}
+  "lerna": "2.9.0",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "commands": {
+    "publish": {
+      "ignore": [
+        "tsconfig-debitoor"
+      ]
+    }
+  }
 }
