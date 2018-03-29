@@ -12,7 +12,7 @@
 		"compile-updated": "lerna run compile --since --parallel",
 		"watch": "lerna run watch --parallel",
 		"clean": "lerna clean",
-		"publish": "lerna publish",
+		"publish": "lerna run compile --since --parallel && lerna publish",
 		"test": "lerna run test --stream"
 	},
 	"repository": {
