@@ -2,6 +2,22 @@
 
 [![Build Status](https://travis-ci.org/debitoor/typescript-configs.svg?branch=master)](https://travis-ci.org/debitoor/typescript-configs)
 
+## Development
+
+This repository relies on [Lerna](https://github.com/lerna/lerna) which is a tool for managing JavaScript projects with multiple packages.
+
+Each sub folder of `./packages` is its own package and will be published on its own. All packages in this project runs on `independent` version mode.
+
+## Publish
+
+When you have made your changes **and** have pushed to master, you can publish.
+
+This is done using the command `npm run publish` in the root of the project.
+
+Lerna will make a prompt for each package you have included changes in, to select a new semver version of each package and will then publish it to npm.
+
+* Read more about [Lerna publish](https://github.com/lerna/lerna/tree/master/commands/publish#readme).
+
 ## License
 
 MIT License
