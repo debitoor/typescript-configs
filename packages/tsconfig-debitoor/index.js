@@ -1,1 +1,3 @@
-require('./out/index');
+const tsconfigRules = require('./tsconfig.json');
+
+module.exports = tsconfigRules;
