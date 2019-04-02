@@ -2,6 +2,12 @@
 
 [![Build Status](https://travis-ci.org/debitoor/typescript-configs.svg?branch=master)](https://travis-ci.org/debitoor/typescript-configs)
 
+## tsconfig settings
+
+Feel free to update settings, or make an issue.
+
+Tsconfig schema can be found [here](http://json.schemastore.org/tsconfig) for possible settings.
+
 ## License
 
 MIT License
