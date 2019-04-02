@@ -14,7 +14,7 @@ When you have made your changes **and** have pushed to master, you can publish.
 
 This is done using the command `npm run publish` in the root of the project.
 
-Lerna will make a prompt for each package you have included changes in, to select a new semver version of each package and will then publish it to npm.
+Lerna will make a prompt for each package you have included changes in, to select a new semver version of each package and will then publish it to npm. This will also create- and push git tags (which creates a new release version). Remember to edit this with a descript of the changes on [Github](https://github.com/debitoor/typescript-configs/releases).
 
 * Read more about [Lerna publish](https://github.com/lerna/lerna/tree/master/commands/publish#readme).
 
