@@ -4,13 +4,14 @@
 	"description": "[![Build Status](https://travis-ci.org/debitoor/typescript-configs.svg?branch=master)](https://travis-ci.org/debitoor/typescript-configs)",
 	"main": "index.js",
 	"dependencies": {
-		"lerna": "2.9.0"
+		"lerna": "^3.13.0"
 	},
-	"devDependencies": {},
 	"scripts": {
 		"clean": "lerna clean --yes",
 		"bootstrap": "lerna bootstrap",
-		"publish": "lerna run compile --since --parallel && lerna publish"
+		"publish": "lerna run compile --since --parallel && lerna publish",
+		"init": "lerna init --independent",
+		"publish": "lerna publish"
 	},
 	"repository": {
 		"type": "git",
