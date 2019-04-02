@@ -1,6 +1,17 @@
 # tsconfig-debitoor
 
-[![Build Status](https://travis-ci.org/debitoor/typescript-configs.svg?branch=master)](https://travis-ci.org/debitoor/typescript-configs)
+
+## Usage
+
+In your Typescript project create a file `tsconfig.json` in the root path if you haven't already. In this file extend this module:
+
+```json
+{
+	"extends": "@debitoor/tsconfig-debitoor"
+}
+```
+
+In this file include all settings that related to paths, like `includes: []`.
 
 ## tsconfig settings
 
