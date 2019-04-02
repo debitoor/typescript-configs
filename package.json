@@ -4,23 +4,19 @@
 	"description": "[![Build Status](https://travis-ci.org/debitoor/typescript-configs.svg?branch=master)](https://travis-ci.org/debitoor/typescript-configs)",
 	"main": "index.js",
 	"dependencies": {
-		"lerna": "^2.9.0"
+		"lerna": "2.9.0"
 	},
 	"devDependencies": {},
 	"scripts": {
-		"compile": "lerna run compile --parallel",
-		"compile-updated": "lerna run compile --since --parallel",
-		"watch": "lerna run watch --parallel",
 		"clean": "lerna clean --yes",
 		"bootstrap": "lerna bootstrap",
-		"publish": "lerna run compile --since --parallel && lerna publish",
-		"test": "lerna run test --stream"
+		"publish": "lerna run compile --since --parallel && lerna publish"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/debitoor/typescript-configs.git"
 	},
-	"author": "",
+	"author": "Debitoor",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/debitoor/typescript-configs/issues"

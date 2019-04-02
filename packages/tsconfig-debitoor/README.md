@@ -4,9 +4,8 @@
 
 ## tsconfig settings
 
-Feel free to update settings, or make an issue.
-
-Tsconfig schema can be found [here](http://json.schemastore.org/tsconfig) for possible settings.
+* Tsconfig schema can be found [here](http://json.schemastore.org/tsconfig) for possible settings.
+* Tsconfig handbook can be found [here](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
 ## License
 
