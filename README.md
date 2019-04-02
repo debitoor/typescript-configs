@@ -1,7 +1,5 @@
 # typescript-configs
 
-[![Build Status](https://travis-ci.org/debitoor/typescript-configs.svg?branch=master)](https://travis-ci.org/debitoor/typescript-configs)
-
 ## Development
 
 This repository relies on [Lerna](https://github.com/lerna/lerna) which is a tool for managing JavaScript projects with multiple packages.
