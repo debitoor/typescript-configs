@@ -1,16 +1,14 @@
 {
 	"name": "@debitoor/typescript-configs",
 	"version": "1.0.0",
-	"description": "[![Build Status](https://travis-ci.org/debitoor/typescript-configs.svg?branch=master)](https://travis-ci.org/debitoor/typescript-configs)",
+	"description": "",
 	"main": "index.js",
 	"dependencies": {
-		"lerna": "^3.13.0"
+		"lerna": "3.13.0"
 	},
 	"scripts": {
 		"clean": "lerna clean --yes",
 		"bootstrap": "lerna bootstrap",
-		"publish": "lerna run compile --since --parallel && lerna publish",
-		"init": "lerna init --independent",
 		"publish": "lerna publish"
 	},
 	"repository": {
