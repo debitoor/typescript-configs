@@ -1,6 +1,5 @@
 # tsconfig-debitoor
 
-
 ## Usage
 
 In your Typescript project create a file `tsconfig.json` in the root path if you haven't already. In this file extend this module:
