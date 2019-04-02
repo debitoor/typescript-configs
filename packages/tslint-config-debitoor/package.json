@@ -1,6 +1,6 @@
 {
 	"name": "@debitoor/tslint-config-debitoor",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"main": "tslint.js",
 	"author": "Debitoor",
 	"license": "ISC",
