@@ -1,12 +1,10 @@
 {
-	"name": "@debitoor/ts-config-debitoor",
+	"name": "@debitoor/tsconfig-debitoor",
 	"version": "1.0.0",
-	"description": "[![Build Status](https://travis-ci.org/debitoor/typescript-configs.svg?branch=master)](https://travis-ci.org/debitoor/typescript-configs)",
-	"main": "index.js",
-	"scripts": {
-	},
+	"description": "Default tsconfig for Typescript",
 	"author": "Debitoor",
+	"main": "tsconfig.js",
 	"license": "ISC",
-	"dependencies": {
-	}
+	"dependencies": {},
+	"tsconfig": "tsconfig.json"
 }
