@@ -12,6 +12,8 @@ In your Typescript project create a file `tsconfig.json` in the root path if you
 
 In this file include all settings that related to paths, like `includes: []`.
 
+#### NOTE: Extending a tsconfig requires typescript version `3.2.0` or later.
+
 ## tsconfig settings
 
 * Tsconfig schema can be found [here](http://json.schemastore.org/tsconfig) for possible settings.
