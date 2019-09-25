@@ -15,7 +15,7 @@
 		"max-line-length": {
 			"severity": "warn",
 			"options": [
-				120
+				180
 			]
 		},
 		"object-literal-sort-keys": false,
