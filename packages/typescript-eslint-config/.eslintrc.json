@@ -12,6 +12,7 @@
 		"@typescript-eslint",
 		"no-only-tests"
 	],
+	"extends": "@debitoor/eslint-config-debitoor",
 	"rules": {
 		"no-only-tests/no-only-tests": "error",
 		"no-unused-vars": 0,
