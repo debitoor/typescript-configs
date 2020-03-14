@@ -1,9 +1,8 @@
 {
   "name": "@debitoor/typescript-eslint-config",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "description": "Debitoor typescript-eslint parser config",
   "main": ".eslintrc.json",
-  "scripts": {},
   "keywords": [],
   "author": "Debitoor ApS",
   "license": "ISC",
