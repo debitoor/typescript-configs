@@ -71,9 +71,7 @@
 			"any",
 			"Number",
 			"String",
-			"string",
 			"Boolean",
-			"boolean",
 			"Undefined"
 		],
 		"id-match": "error",
