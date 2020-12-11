@@ -1,5 +1,7 @@
 # tslint-config-debitoor
 
+**DEPRECATED!** Please use our [typescript-eslint-config](https://github.com/debitoor/typescript-configs/tree/master/packages/typescript-eslint-config) module instead.
+
 Defines global linting rules for Debitoor typescript porojects
 
 You can find all tslint rules [here](https://palantir.github.io/tslint/rules/).
