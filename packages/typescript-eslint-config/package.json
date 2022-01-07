@@ -1,6 +1,6 @@
 {
   "name": "@debitoor/typescript-eslint-config",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Debitoor typescript-eslint parser config",
   "main": ".eslintrc.json",
   "keywords": [],
