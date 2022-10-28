@@ -6,7 +6,7 @@ In your Typescript project create a file `tsconfig.json` in the root path if you
 
 ```json
 {
-	"extends": "@debitoor/tsconfig-debitoor"
+  "extends": "@debitoor/tsconfig-debitoor"
 }
 ```
 

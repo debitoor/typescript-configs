@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"dependencies": {
-		"lerna": "3.16.4"
+		"lerna": "6.0.1"
 	},
 	"scripts": {
 		"clean": "lerna clean --yes",
@@ -18,6 +18,9 @@
 	},
 	"author": "Debitoor",
 	"license": "ISC",
+	"engines": {
+		"node": ">=16"
+	},
 	"bugs": {
 		"url": "https://github.com/debitoor/typescript-configs/issues"
 	},
