@@ -2,7 +2,7 @@
   "name": "@debitoor/typescript-eslint-config",
   "version": "4.0.0",
   "description": "Debitoor typescript-eslint parser config",
-  "main": ".eslintrc.json",
+  "main": ".eslintrc.yaml",
   "keywords": [],
   "author": "Debitoor ApS",
   "license": "ISC",
