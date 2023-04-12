@@ -1,6 +1,6 @@
 {
   "name": "@debitoor/typescript-eslint-config",
-  "version": "4.0.1",
+  "version": "4.0.1-beta.0",
   "description": "Debitoor typescript-eslint parser config",
   "main": ".eslintrc.yaml",
   "keywords": [],
@@ -8,8 +8,8 @@
   "license": "ISC",
   "dependencies": {
     "@debitoor/eslint-config-debitoor": "3.1.0",
-    "@typescript-eslint/eslint-plugin": "5.41.0",
-    "@typescript-eslint/parser": "5.41.0",
+    "@typescript-eslint/eslint-plugin": "5.58.0",
+    "@typescript-eslint/parser": "5.58.0",
     "eslint-plugin-no-only-tests": "3.1.0"
   },
   "repository": {
@@ -18,7 +18,7 @@
   },
   "peerDependencies": {
     "eslint": ">=8",
-    "typescript": ">=4.8"
+    "typescript": ">=5"
   },
   "engines": {
     "node": ">=16"
